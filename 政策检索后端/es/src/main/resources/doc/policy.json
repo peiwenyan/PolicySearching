@@ -1,0 +1,47 @@
+{
+  "properties": {
+    "label": {
+      "type": "keyword"
+    },
+    "labelNum": {
+      "type": "short"
+    },
+    "city": {
+      "type": "keyword"
+    },
+    "policyId": {
+      "type": "long"
+    },
+    "policyGrade": {
+      "type": "keyword"
+    },
+    "policySource": {
+      "type": "text",
+      "analyzer": "ik_max_word"
+    },
+    "policyTitle": {
+      "type": "text",
+      "analyzer": "ik_max_word"
+    },
+    "policyType": {
+      "type": "keyword"
+    },
+    "provinceNum": {
+      "type": "short"
+    },
+    "province": {
+      "type": "keyword"
+    },
+    "pubAgencyFullname": {
+      "type": "text",
+      "analyzer": "ik_max_word"
+    },
+    "pubTime": {
+      "type": "date"
+    },
+    "textContent": {
+      "type": "text",
+      "analyzer": "ik_max_word"
+    }
+  }
+}
